@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Stack } from "@mui/material"; //stack component from material ui is used to add layout to immediate chils elements.
-import Logo from "../assets/assets/images/Logo.png";
+import Logo from "../assets/images/Logo.png";
 const Navbar = () => {
   return (
     <Stack

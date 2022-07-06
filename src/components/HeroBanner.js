@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Stack, Typography, Button } from "@mui/material"; //Typograpy is simple a p tag or heading tag
-import HeroBannerImage from "../assets/assets/images/banner.png";
+import HeroBannerImage from "../assets/images/banner.png";
 const HeroBanner = () => {
   return (
     <Box
