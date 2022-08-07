@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Stack, Typography, Button } from "@mui/material"; //Typograpy is simple a p tag or heading tag
+import { Box, Typography, Button } from "@mui/material"; //Typograpy is simple a p tag or heading tag
 import HeroBannerImage from "../assets/images/banner.png";
 const HeroBanner = () => {
   return (
@@ -19,7 +19,7 @@ const HeroBanner = () => {
       >
         Sweat, smile <br /> and repeat
       </Typography>
-      <Typography fontSize="22px" LineHeight="35px" mb={4}>
+      <Typography fontSize="22px" lineHeight="35px" mb={4}>
         Check out the most effective exercises
       </Typography>
       <Button
