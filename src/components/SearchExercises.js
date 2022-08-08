@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Button, Box, Stack, TextField, Typography } from "@mui/material";
+import { Box, Button, Stack, TextField, Typography } from "@mui/material";
 import { exerciseOptions, fetchData } from "../utils/fetchData";
 import HorizontalScrollbar from "./HorizontalScrollbar";
 const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
@@ -32,6 +32,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
       );
       // window.scrollTo({ top: 1800, left: 100, behavior: "smooth" });
       setSearch(""); //first serach is empty
+      window.scrollTo({ top: 1800, left: 100, behavior: "smooth" });
       setExercises(searchedExercises); //search is given the input it gets by user
     }
   };
@@ -80,10 +81,9 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
       <Box sx={{ position: "relative", width: "100%", p: "20px" }}>
         <HorizontalScrollbar
           data={bodyParts}
-          bodyParts
           setBodyPart={setBodyPart}
           bodyPart={bodyPart}
-          isBodyParts={bodyParts}
+          isBodyparts
         />
       </Box>
     </Stack>
