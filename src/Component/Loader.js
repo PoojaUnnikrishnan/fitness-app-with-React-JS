@@ -1,8 +1,10 @@
-import React from "react";
-import { Stack } from "@mui/material";
+import { Stack } from '@mui/material'
+import React from 'react'
 import { Circles } from "react-loader-spinner";
-const Loader = () => (
-  <Stack
+
+const Loader = () => {
+  return (
+    <Stack
     direction="row"
     justifyContent="center"
     alignItems="center"
@@ -10,6 +12,7 @@ const Loader = () => (
   >
     <Circles color="#00BFFF" height={80} width={80} />
   </Stack>
-);
+  )
+}
 
-export default Loader;
+export default Loader
